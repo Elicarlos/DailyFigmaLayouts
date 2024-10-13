@@ -21,9 +21,9 @@ Cada pasta contém o layout de um dia, com o código-fonte e uma captura de tela
 Aqui estão algumas capturas de tela dos layouts recriados até agora:
 
 ### Day 01
-<img src="day-01/prints/index.html" width="400px">
-<img src="day-01/prints/login.html" width="400px">
-<img src="day-01/prints/register.html" width="400px">
+<img src="day-01/prints/index.jpeg" width="400px">
+<img src="day-01/prints/login.jpeg" width="400px">
+<img src="day-01/prints/register.jpeg" width="400px">
 
 ### Day 02
 <img src="prints/day-02.png" width="400px">
