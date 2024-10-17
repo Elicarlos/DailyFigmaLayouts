@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planner</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nanum+Brush+Script&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="logo">      
+          <a href="#"><img src="assets/images/pitaco-logo.png" alt=""></a>
+        </div>          
+          <nav>
+            <ul class="nav-list nav-links">
+              <li class="btn" ><a href="#cardapio"><img src="" alt="">Cardápio</a></li>
+              <li class="btn"><a href="#chefe"><img src="" alt="">Chefe</a></li>
+              <li class="btn">
+                <a href="javascript:void(0);" class="open-cart"><img src="" alt="">Carrinho                  
+                  <span id="cart-count">(0)</span>
+                </a>
+              </li>              
+            </ul>
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>         
+      </div>
+    </header>
+
+    <div class="menu-overlay"></div>
+
+    <!-- Overlay menu-->
+    <div class="mobile-menu">
+      <span class="close-menu">&times;</span>
+      <ul>
+        <li class="btn"><a href="#cardapio">Cardápio</a></li>
+        <li class="btn"><a href="#chefe">Chefe</a></li>
+        <!-- <li class="btn"><a href="javascript:void(0);" id="open-cart">Carrinho <span id="cart-count">(0)</span></a></li> -->
+      </ul>
+    </div>
+
+
+
+    <div class="container">
+      <div class="hero">       
+            <div class="hero-content">
+              <div class="hero-text">
+                <h1> Pitaco: A melhor opção de comida caseira em São Bernardo do Campo & Região.</h1>
+                <p>Opção também para quem vai fazer um evento e quer aquele buffet de qualidade.</p>
+        
+                <p>Cardápio vasto com diversas opções de pratos: feijoada (especialidade da casa), strogonoff de carne, filé de frango á parmegiana, frango grelhado, entre outros. Peça já o seu!</p>
+              </div>
+            </div>
+        </div>      
+            
+      </div>
+      <div class="cardapio-title">
+        <h2>Cardápio</h2>
+      </div>
+      
+      <div id="cardapio" class="cardapio">
+        
+        <ul class="cardapio-galery">
+          <li class="card">
+            <div class="card-image">
+              <img src="assets/images/prato.jpeg" alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>Feijoada Executivo Jr</h2>
+              </div>
+              <div class="card-description">
+                <p>Feijoada com costelinha e linguiça, arroz, torresmo, couve, farofa e molho apimentado.</p>
+              </div>
+
+              <div class="card-price">
+                <h2>R$ <span>24,50</span></h2>
+              </div>
+
+              <div class="serve">
+                <p>Serve 1 pessoa</p>
+              </div>
+              <div class="btn-add">
+                +
+              </div>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card-image">
+              <img src="assets/images/prato.jpeg" alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>Pizza Grande</h2>
+              </div>
+              <div class="card-description">
+                <p>Feijoada com costelinha e linguiça, arroz, torresmo, couve, farofa e molho apimentado.</p>
+              </div>
+
+              <div class="card-price">
+                <h2>R$ <span>24,50</span></h2>
+              </div>
+
+              <div class="serve">
+                <p>Serve 1 pessoa</p>
+              </div>
+              <div class="btn-add">
+                +
+              </div>
+            </div>
+          </li>
+        </ul>       
+      </div>
+
+      <div id="chefe" class="chefe">
+        <div class="chefe-content">
+          <div class="chefe-text">
+            <h2>Chef</h2>
+            <h2>PATRICIA BASTOS</h2>
+            <P>Paulistana, Patricia Bastos é cozinheira e empreendedora.</P>
+            <P>Superando sua infância/adolescência pobre, se formou em nutrição e então em 2022, iniciou mais um capitulo em sua história, a criação do PITACO RESTAURANTE. Inicialmente, trabalhava apenas com batatas recheadas, depois de um tempo expandiu os horizontes e encontrou na comida caseira a sua verdadeira essência.
+  
+              Depois do sucesso do seu primeiro empreendimento, entendeu que era a hora de mais um desafio, e foi ai que em 2024 numa festa entre amigos inaugurou o PITACO EVENTOS, opção para quem deseja um buffet de ótima qualidade.</P>
+          </div>
+          <img src="assets/images/chefe.jpeg" alt="">
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-content">
+          <div class="contrate">
+            <h2>Contrate para eventos:</h2>
+            <p>(011) 93335-5241</p>
+           <p>@pitacoeventossp</p>
+          </div>
+          <div class="horarios">
+            <h2>Horário de funcionamento (restaurante):</h2>
+           <p> Segunda-Feira: 08:30 - 18:00</p>
+           <p> Terça, Quinta, Sexta e Domingo: 09:00 - 18:00</p>
+           <p> Sábado e Quarta: 08:00 - 18:00</p>
+          </div>
+        </div>
+      </footer>
+
+
+      <!-- Pop up-->
+
+      <div id="cart-popup" class="cart-popup">
+        <div class="cart-popup-content">
+          <span class="close-cart">&times;</span>
+          <h2>Seu Carrinho</h2>
+          
+          <div id="cart-items"></div>
+          <div id="cart-total"></div>
+          Total: R$ <span id="total-amount">0,00</span>
+          
+
+          
+          <div class="btn-carrinho">
+            <a href="javascript:void(0);" class="enviar-whatsapp">Enviar Pedido via WhatsApp</a>
+          </div>
+        </div>        
+      </div>
+
+
+      <div id="toast-container"></div>
+
+      <div class="mobi-content-car">
+        <div class="carrinho-mobile">
+            <a href="javascript:void(0);" class="open-cart">
+                <img src="assets/images/carrinho-de-compras.png" alt="Carrinho de compras">
+            </a>
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+   <script src="js/main.js"></script>
+   
+  </body>
+</html>

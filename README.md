@@ -29,7 +29,15 @@ Aqui estão algumas capturas de tela dos layouts recriados até agora:
 
 
 ### Day 02
-<img src="day-01/prints/index.jpeg" width="100px">
+<div style={ display: flex; gap: 50px; flex-wrap: wrap; }>
+<img src="day-02/prints/index.jpeg" width="100px">
+</div>
+
+### Day 04
+<div style={ display: flex; gap: 50px; flex-wrap: wrap; }>
+<img src="day-04/prints/index-desktop.jpeg" width="100px">
+<img src="day-04/prints/index-mobile.jpeg" width="100px">
+</div>
 
 ---
 
