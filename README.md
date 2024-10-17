@@ -21,7 +21,7 @@ Cada pasta contém o layout de um dia, com o código-fonte e uma captura de tela
 Aqui estão algumas capturas de tela dos layouts recriados até agora:
 
 ### Day 01
-<div style={ display: flex; gap: 50px; flex-wrap: wrap; }>
+<div style={ display: flex; gap: 50px; flex-wrap: wrap; align-items: center }>
    <img src="day-01/prints/index.jpeg" width="100px">
    <img src="day-01/prints/login.jpeg" width="100px">
    <img src="day-01/prints/register.jpeg" width="100px">
@@ -37,9 +37,8 @@ Aqui estão algumas capturas de tela dos layouts recriados até agora:
 <div style={ display: flex; gap: 50px; flex-wrap: wrap; }>
 <img src="day-04/prints/index-desktop.jpeg" width="100px">
 <img src="day-04/prints/index-mobile.jpeg" width="100px">
-</div>
 
----
+</div>
 
 ## Objetivo
 
