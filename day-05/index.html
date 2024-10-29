@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/pitaco.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nanum+Brush+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/presentation.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/chef.css" />
+    <link rel="stylesheet" href="styles/cart.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/toast.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Pitaco | Restaurante & Eventos</title>
+    <meta
+      name="description"
+      content="Pitaco Restaurante: A melhor comida da região de São Bernardo & Região. Ótima opção para quem deseja comer uma comida caseira deliciosa, já para aqueles que desejam um buffet de altissima qualidade, Pitaco Eventos."
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        src="assets/pitaco.png"
+        alt="Logo da Pitaco"
+        title="Logo da Pitaco"
+        class="header__img"
+      />
+
+      <i class="ph-bold ph-list"></i>
+
+      <nav class="header__nav">
+        <ul class="header__list">
+          <i class="ph-bold ph-x"></i>
+
+          <li class="header__item">
+            <a class="header__link" href="#menu">
+              <i class="ph ph-fork-knife"></i>
+              Cardápio
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#chef">
+              <i class="ph ph-chef-hat"></i>
+              Chef
+            </a>
+          </li>
+
+          <li class="header__item cart__link">
+            <a class="header__link" href="#">
+              <i class="ph ph-shopping-cart"></i>
+              Carrinho
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="presentation">
+        <h2 class="presentation__title">
+          Pitaco: A melhor opção de comida caseira em São Bernardo do Campo & Região.
+        </h2>
+        <p class="presentation__description">
+          Opção também para quem vai fazer um evento e quer aquele buffet de qualidade.
+        </p>
+        <p class="presentation__description">
+          Cardápio vasto com diversas opções de pratos: feijoada (especialidade da casa), strogonoff
+          de carne, filé de frango á parmegiana, frango grelhado, entre outros. Peça já o seu!
+        </p>
+      </section>
+
+      <section class="menu" id="menu">
+        <h3 class="menu__title">Cardápio</h3>
+        <ul class="menu__list"></ul>
+        <div class="menu__loading"></div>
+      </section>
+
+      <section class="chef" id="chef">
+        <div class="chef__infos">
+          <h3 class="chef__title">Chef</h3>
+          <h2 class="chef__name">Patricia Bastos</h2>
+          <p class="chef__description">Paulistana, Patricia Bastos é cozinheira e empreendedora.</p>
+
+          <p class="chef__description">
+            Superando sua infância/adolescência pobre, se formou em nutrição e então em 2022,
+            iniciou mais um capitulo em sua história, a criação do
+            <strong>PITACO RESTAURANTE</strong>. Inicialmente, trabalhava apenas com batatas
+            recheadas, depois de um tempo expandiu os horizontes e encontrou na comida caseira a sua
+            verdadeira essência.
+          </p>
+
+          <p class="chef__description">
+            Depois do sucesso do seu primeiro empreendimento, entendeu que era a hora de mais um
+            desafio, e foi ai que em 2024 numa festa entre amigos inaugurou o
+            <strong>PITACO EVENTOS</strong>, opção para quem deseja um buffet de ótima qualidade.
+          </p>
+        </div>
+
+        <div class="chef__image" title="Chef Patricia Bastos"></div>
+      </section>
+
+      <section class="cart">
+        <i class="ph ph-x"></i>
+        <ul class="cart__list"></ul>
+        <button class="cart__button">Finalizar pedido</button>
+      </section>
+
+      <a href="#" class="cart__icon">
+        <i class="ph ph-shopping-cart"></i>
+      </a>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__infos">
+        <h3 class="footer__title">Contrate para eventos:</h3>
+        <ul class="footer__list-contacts">
+          <li class="footer__item-contacts">
+            <i class="ph ph-whatsapp-logo"></i>
+            <span class="footer__number">(011) 93335-5241</span>
+          </li>
+          <li class="footer__item-contacts">
+            <i class="ph ph-instagram-logo"></i>
+            <span class="footer__number">@pitacoeventossp</span>
+          </li>
+        </ul>
+      </section>
+      <section class="footer__time">
+        <h3 class="footer__title">Horário de funcionamento (restaurante):</h3>
+        <ul class="footer__list-time">
+          <li class="footer__item-time"><strong>Segunda-Feira</strong>: 08:30 - 18:00</li>
+          <li class="footer__item-time">
+            <strong>Terça, Quinta, Sexta e Domingo:</strong> 09:00 - 18:00
+          </li>
+          <li class="footer__item-time"><strong>Sábado e Quarta:</strong> 08:00 - 18:00</li>
+        </ul>
+      </section>
+    </footer>
+
+    <script type="module" src="dist/Hamburger.js"></script>
+    <script type="module" src="dist/Home.js"></script>
+  </body>
+</html>
